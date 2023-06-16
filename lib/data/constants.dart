@@ -20,13 +20,5 @@ class NetworkList {
       faucetUrl: 'https://faucet.testnet.shimmer.network',
       mqttStream: 'wss://api.testnet.shimmer.network:443/api/mqtt/v1',
     ),
-    Network(
-      1,
-      "Kais Shimmer Mainnet",
-      'https://shimmer.tangledid.de',
-      NetworkType.mainnet,
-      'SMR',
-      CoinType.shimmer,
-    ),
   ];
 }
